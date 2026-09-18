@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ header{
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+article{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article p{
+    color: white;
+}
+
+.hajo{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(54, 54, 54);
+    background-color: rgb(54, 54, 54);
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: black 0px 5px 10px 0px;
+}
+
+article button{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+footer{
+    margin: 20px
+}
